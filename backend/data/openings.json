@@ -1,0 +1,350 @@
+[  
+  {
+    "title": "Défense Pirc",
+    "opening": "Pirc Defense",
+    "text": "La défense Pirc commence généralement par 1.e4 d6 2.d4 Nf6 3.Nc3 g6. Les Noirs permettent aux Blancs d'occuper le centre avant de le contester avec leurs pièces et leurs pions.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense Alekhine",
+    "opening": "Alekhine Defense",
+    "text": "La défense Alekhine commence par 1.e4 Nf6. Le cavalier noir attaque le pion e4 et invite les Blancs à avancer leurs pions centraux. Les Noirs cherchent ensuite à attaquer ce centre avancé.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense Scandinave",
+    "opening": "Scandinavian Defense",
+    "text": "La défense scandinave commence par 1.e4 d5. Les Noirs attaquent immédiatement le pion e4 avec leur pion d5. Après la reprise, les Noirs obtiennent une position solide mais doivent accepter un développement légèrement différent.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense russe",
+    "opening": "Petrov's Defense",
+    "text": "La défense russe commence par 1.e4 e5 2.Nf3 Nf6. Le cavalier noir attaque directement le pion e4. Cette ouverture est réputée pour sa solidité et ses possibilités de simplification rapide.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense Philidor",
+    "opening": "Philidor Defense",
+    "text": "La défense Philidor commence par 1.e4 e5 2.Nf3 d6. Les Noirs soutiennent leur pion e5 avec d6 et développent une position compacte. Cette défense peut conduire à des positions plus fermées.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Gambit du roi",
+    "opening": "King's Gambit",
+    "text": "Le gambit du roi commence par 1.e4 e5 2.f4. Les Blancs sacrifient temporairement le pion f4 afin d'ouvrir des lignes et d'obtenir une avance de développement. Cette ouverture produit souvent des positions très tactiques.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Partie écossaise",
+    "opening": "Scotch Game",
+    "text": "La partie écossaise commence par 1.e4 e5 2.Nf3 Nc6 3.d4. Les Blancs ouvrent rapidement le centre et cherchent à obtenir un développement actif. Les positions résultantes sont généralement ouvertes.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Gambit écossais",
+    "opening": "Scotch Gambit",
+    "text": "Le gambit écossais est une variante de la partie écossaise où les Blancs cherchent une activité rapide en sacrifiant ou en laissant temporairement un pion. Le développement et l'initiative sont privilégiés.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Gambit de la dame",
+    "opening": "Queen's Gambit",
+    "text": "Le gambit de la dame commence par 1.d4 d5 2.c4. Les Blancs attaquent le pion d5 avec le pion c4 et cherchent à obtenir un meilleur contrôle du centre. Malgré son nom, le gambit ne nécessite pas forcément un sacrifice durable.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Gambit de la dame accepté",
+    "opening": "Queen's Gambit Accepted",
+    "text": "Le gambit de la dame accepté commence par 1.d4 d5 2.c4 dxc4. Les Noirs capturent le pion c4 et tentent de conserver temporairement le pion supplémentaire tout en préparant leur développement.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Gambit de la dame refusé",
+    "opening": "Queen's Gambit Declined",
+    "text": "Le gambit de la dame refusé commence généralement par 1.d4 d5 2.c4 e6. Les Noirs refusent de capturer le pion c4 et construisent une position solide autour du centre.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense slave",
+    "opening": "Slav Defense",
+    "text": "La défense slave commence par 1.d4 d5 2.c4 c6. Les Noirs renforcent le pion d5 avec c6 tout en conservant la possibilité de développer leur fou c8. Cette défense est solide et très étudiée.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense semi-slave",
+    "opening": "Semi-Slav Defense",
+    "text": "La défense semi-slave combine les idées du gambit de la dame refusé et de la défense slave. Une structure typique apparaît après d4, d5, c4, e6 et c6. Les Noirs obtiennent une position très solide avec de nombreuses possibilités dynamiques.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense nimzo-indienne",
+    "opening": "Nimzo-Indian Defense",
+    "text": "La défense nimzo-indienne commence généralement par 1.d4 Nf6 2.c4 e6 3.Nc3 Bb4. Les Noirs clouent le cavalier c3 et exercent une pression sur la structure centrale blanche. C'est une défense stratégique et dynamique.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense est-indienne",
+    "opening": "King's Indian Defense",
+    "text": "La défense est-indienne commence généralement par 1.d4 Nf6 2.c4 g6 3.Nc3 Bg7. Les Noirs permettent aux Blancs de contrôler le centre avant de chercher une contre-attaque. Les positions peuvent devenir très tactiques.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense Grünfeld",
+    "opening": "Grunfeld Defense",
+    "text": "La défense Grünfeld commence généralement par 1.d4 Nf6 2.c4 g6 3.Nc3 d5. Les Noirs contestent directement le centre blanc avec d5 et cherchent souvent à attaquer la structure centrale à distance.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense ouest-indienne",
+    "opening": "Queen's Indian Defense",
+    "text": "La défense ouest-indienne apparaît généralement après 1.d4 Nf6 2.c4 e6 3.Nf3 b6. Les Noirs développent leur fou en b7 et exercent une pression à distance sur le centre blanc.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense Benoni moderne",
+    "opening": "Modern Benoni",
+    "text": "La défense Benoni moderne commence souvent par 1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 exd5. Les Noirs acceptent une structure de pions asymétrique afin d'obtenir du contre-jeu sur l'aile dame.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense Benko",
+    "opening": "Benko Gambit",
+    "text": "Le gambit Benko est une ouverture dynamique dans laquelle les Noirs sacrifient généralement un pion pour obtenir des lignes ouvertes et une forte pression sur l'aile dame. Il est particulièrement connu pour son activité positionnelle à long terme.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense hollandaise",
+    "opening": "Dutch Defense",
+    "text": "La défense hollandaise commence par 1.d4 f5. Les Noirs cherchent immédiatement à contrôler la case e4 et à créer des possibilités offensives sur l'aile roi. Cette ouverture peut conduire à des positions très déséquilibrées.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense hollandaise Leningrad",
+    "opening": "Leningrad Dutch",
+    "text": "La variante Leningrad de la défense hollandaise associe ...f5 et ...g6 avec un développement du fou en g7. Les Noirs cherchent une structure dynamique et une attaque potentielle sur l'aile roi.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense hollandaise Stonewall",
+    "opening": "Stonewall Dutch",
+    "text": "La structure Stonewall de la défense hollandaise repose sur une chaîne de pions noirs avec f5, e6, d5 et c6. Elle donne aux Noirs une structure solide mais peut laisser certaines cases faibles.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Ouverture catalane",
+    "opening": "Catalan Opening",
+    "text": "L'ouverture catalane combine le pion dame avec le développement rapide du fou en g2. Les Blancs cherchent généralement à contrôler le centre et à exercer une pression positionnelle sur l'aile dame.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Ouverture anglaise",
+    "opening": "English Opening",
+    "text": "L'ouverture anglaise commence généralement par 1.c4. Les Blancs contrôlent la case d5 depuis l'aile et peuvent transposer vers de nombreuses structures d'ouverture. Elle permet un jeu positionnel très flexible.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Ouverture Réti",
+    "opening": "Réti Opening",
+    "text": "L'ouverture Réti commence généralement par 1.Nf3 et privilégie un contrôle indirect du centre. Les Blancs développent leurs pièces avant de déterminer la structure de pions centrale.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Système de Londres",
+    "opening": "London System",
+    "text": "Le système de Londres repose généralement sur d4, Nf3, Bf4 et e3. Les Blancs construisent une structure solide et cherchent à obtenir un développement fiable sans entrer immédiatement dans une théorie très complexe.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Système Colle",
+    "opening": "Colle System",
+    "text": "Le système Colle utilise généralement d4, Nf3, e3 et Bd3. Les Blancs construisent progressivement un centre solide avant de chercher une poussée e4 et une attaque sur l'aile roi.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Attaque Stonewall",
+    "opening": "Stonewall Attack",
+    "text": "L'attaque Stonewall est un système blanc caractérisé par une structure de pions avec f4, e3, d4 et c3. Les Blancs obtiennent un contrôle important des cases centrales et préparent souvent une attaque sur l'aile roi.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Ouverture Bird",
+    "opening": "Bird Opening",
+    "text": "L'ouverture Bird commence par 1.f4. Les Blancs contrôlent la case e5 avec le pion f et cherchent souvent à construire une position agressive. Cette ouverture peut conduire à des structures proches de la défense hollandaise.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Ouverture viennoise",
+    "opening": "Vienna Game",
+    "text": "L'ouverture viennoise commence par 1.e4 e5 2.Nc3. Les Blancs développent le cavalier avant de décider comment attaquer le centre. Elle peut conduire à des positions calmes ou à des variantes tactiques.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Gambit viennois",
+    "opening": "Vienna Gambit",
+    "text": "Le gambit viennois est une variante agressive de l'ouverture viennoise dans laquelle les Blancs peuvent jouer f4 pour ouvrir des lignes et obtenir une initiative rapide contre le roi noir.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Ouverture du centre",
+    "opening": "Center Game",
+    "text": "La partie du centre commence par 1.e4 e5 2.d4. Les Blancs cherchent à ouvrir rapidement le centre et à obtenir un développement actif. Cette ouverture peut donner des positions ouvertes dès les premiers coups.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Gambit danois",
+    "opening": "Danish Gambit",
+    "text": "Le gambit danois commence par 1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.c3. Les Blancs peuvent sacrifier un ou plusieurs pions pour obtenir un développement rapide et une forte activité des fous.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Gambit Evans",
+    "opening": "Evans Gambit",
+    "text": "Le gambit Evans commence par 1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4. Les Blancs offrent le pion b4 afin de détourner le fou noir et de gagner du temps pour développer leurs pièces.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense des deux cavaliers",
+    "opening": "Two Knights Defense",
+    "text": "La défense des deux cavaliers apparaît après 1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6. Les Noirs développent rapidement leurs cavaliers et attaquent le pion e4. Cette ouverture possède de nombreuses variantes tactiques.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Gambit de Budapest",
+    "opening": "Budapest Gambit",
+    "text": "Le gambit de Budapest commence généralement par 1.d4 Nf6 2.c4 e5. Les Noirs sacrifient temporairement un pion afin d'obtenir un développement rapide et de l'activité contre le centre blanc.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense Benoni",
+    "opening": "Benoni Defense",
+    "text": "La défense Benoni crée généralement une structure de pions asymétrique après d4, Nf6, c4 et c5. Les Noirs cherchent du contre-jeu dynamique contre le centre et l'aile dame des Blancs.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense Bogo-indienne",
+    "opening": "Bogo-Indian Defense",
+    "text": "La défense Bogo-indienne commence généralement par 1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+. Les Noirs développent leur fou avec tempo et peuvent provoquer des échanges afin de réduire la pression centrale blanche.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense nimzo-indienne Sämisch",
+    "opening": "Nimzo-Indian Sämisch",
+    "text": "La variante Sämisch de la défense nimzo-indienne se caractérise notamment par f3 chez les Blancs. Les Blancs renforcent le centre et préparent une occupation importante de l'espace, tandis que les Noirs cherchent du contre-jeu.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense est-indienne classique",
+    "opening": "King's Indian Classical",
+    "text": "La variante classique de la défense est-indienne comprend généralement Nf6, g6, Bg7 et une forte présence blanche au centre. Les Noirs cherchent souvent une attaque sur l'aile roi avec ...f5.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense est-indienne Sämisch",
+    "opening": "King's Indian Sämisch",
+    "text": "La variante Sämisch de la défense est-indienne est caractérisée par f3 chez les Blancs. Cette configuration soutient le centre et prépare parfois une expansion avec e4 et une attaque contre les Noirs.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense Grünfeld russe",
+    "opening": "Grunfeld Russian System",
+    "text": "Le système russe de la défense Grünfeld permet aux Blancs de construire un centre important avant que les Noirs ne cherchent à le mettre sous pression avec leurs pièces et leurs pions.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense sicilienne Najdorf",
+    "opening": "Sicilian Najdorf",
+    "text": "La variante Najdorf de la défense sicilienne commence généralement par ...a6 après une structure sicilienne classique. Les Noirs préparent une expansion sur l'aile dame et conservent de nombreuses possibilités de contre-attaque.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense sicilienne Dragon",
+    "opening": "Sicilian Dragon",
+    "text": "La variante Dragon de la défense sicilienne se caractérise par ...g6 et le développement du fou noir en g7. Les Noirs exercent une pression sur la grande diagonale et recherchent souvent une attaque rapide contre le roi blanc.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense sicilienne Scheveningen",
+    "opening": "Sicilian Scheveningen",
+    "text": "La variante Scheveningen de la défense sicilienne repose sur une structure noire avec e6 et d6. Les Noirs obtiennent une position flexible et peuvent préparer une contre-attaque sur l'aile roi ou au centre.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense sicilienne Sveshnikov",
+    "opening": "Sicilian Sveshnikov",
+    "text": "La variante Sveshnikov de la défense sicilienne implique généralement ...e5 et une structure de pions asymétrique. Les Noirs acceptent certaines faiblesses positionnelles en échange d'une activité importante et de possibilités dynamiques.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense sicilienne Kan",
+    "opening": "Sicilian Kan",
+    "text": "La variante Kan de la défense sicilienne est une approche flexible après 1.e4 c5. Les Noirs développent leurs pièces sans déterminer immédiatement leur structure complète et cherchent à conserver plusieurs possibilités de contre-jeu.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense sicilienne Taimanov",
+    "opening": "Sicilian Taimanov",
+    "text": "La variante Taimanov de la défense sicilienne se caractérise notamment par ...Nc6 et ...Qc7. Les Noirs construisent une position flexible et peuvent choisir entre plusieurs structures selon le développement blanc.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense sicilienne Alapine",
+    "opening": "Sicilian Alapin",
+    "text": "La variante Alapine commence généralement par 1.e4 c5 2.c3. Les Blancs préparent d4 afin de construire un centre de pions important. Cette ligne évite certaines grandes branches théoriques de la Sicilienne ouverte.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense sicilienne fermée",
+    "opening": "Closed Sicilian",
+    "text": "La Sicilienne fermée apparaît généralement lorsque les Blancs développent leur cavalier en c3 sans ouvrir immédiatement le centre avec d4. Les positions sont souvent plus lentes et peuvent conduire à des attaques sur les ailes.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense française Winawer",
+    "opening": "French Winawer",
+    "text": "La variante Winawer de la défense française apparaît après 1.e4 e6 2.d4 d5 3.Nc3 Bb4. Les Noirs clouent le cavalier c3 et créent une structure complexe avec de fortes possibilités tactiques et positionnelles.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense française Tarrasch",
+    "opening": "French Tarrasch",
+    "text": "La variante Tarrasch de la défense française commence généralement par 1.e4 e6 2.d4 d5 3.Nd2. Les Blancs évitent le clouage du cavalier en c3 et conservent plusieurs possibilités de développement.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense française classique",
+    "opening": "French Classical Defense",
+    "text": "La variante classique de la défense française apparaît après 1.e4 e6 2.d4 d5 3.Nc3 Nf6. Les Noirs développent rapidement leur cavalier et exercent une pression sur le centre blanc.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense Caro-Kann classique",
+    "opening": "Caro-Kann Classical",
+    "text": "La variante classique de la défense Caro-Kann implique généralement 1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4. Les Noirs obtiennent une structure solide et cherchent un développement harmonieux.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense Caro-Kann avancée",
+    "opening": "Caro-Kann Advance",
+    "text": "La variante avancée de la défense Caro-Kann apparaît après 1.e4 c6 2.d4 d5 3.e5. Les Blancs gagnent de l'espace au centre tandis que les Noirs cherchent à attaquer la chaîne de pions avec ...c5 et ...f6.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Défense Scandinave moderne",
+    "opening": "Modern Scandinavian",
+    "text": "La défense scandinave moderne commence par 1.e4 d5 2.exd5 Qxd5 ou par des variantes avec ...Nf6. Les Noirs acceptent un développement précoce de la dame afin de modifier immédiatement la structure centrale.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Ouverture Mieses",
+    "opening": "Mieses Opening",
+    "text": "L'ouverture Mieses commence généralement par 1.d3 ou peut apparaître dans différentes transpositions. Les Blancs adoptent une approche flexible et cherchent à développer leurs pièces avant de définir complètement leur structure centrale.",
+    "source": "Wikichess"
+  },
+  {
+    "title": "Ouverture Larsen",
+    "opening": "Larsen Opening",
+    "text": "L'ouverture Larsen commence généralement par 1.b3. Les Blancs préparent le développement du fou en b2 et contrôlent les cases centrales à distance. Cette ouverture favorise les positions flexibles et positionnelles.",
+    "source": "Wikichess"
+  }
+]
