@@ -1,0 +1,112 @@
+<div class="chess-container">
+  <div class="board">
+    <ngx-chessground [runFunction]="myFn()" />
+  </div>
+
+@if (response(); as data) { <div class="results">
+
+
+  <!-- STOCKFISH -->
+  <section class="result-card stockfish">
+    <h2>♟️ Stockfish</h2>
+    @if (data.stockfish.status === 'response') {
+      <div class="status success">{{ data.stockfish.message }}</div>
+      <div class="evaluation">
+        <div class="evaluation-item"><span>Évaluation</span><strong>{{ data.stockfish.data?.evaluation?.value }}</strong></div>
+        <div class="evaluation-item"><span>Type</span><strong>{{ data.stockfish.data?.evaluation?.type }}</strong></div>
+        <div class="evaluation-item"><span>Meilleur coup</span><strong>{{ data.stockfish.data?.best_move }}</strong></div>
+        <div class="evaluation-item"><span>Profondeur</span><strong>{{ data.stockfish.data?.depth }}</strong></div>
+      </div>
+    } @else if (data.stockfish.status === 'empty') {
+      <div class="status info"><strong>Analyse non nécessaire</strong><p>{{ data.stockfish.message }}</p></div>
+    } @else {
+      <div class="status error"><strong>Erreur Stockfish</strong><p>{{ data.stockfish.message }}</p></div>
+    }
+  </section>
+
+  <!-- LICHESS -->
+  <section class="result-card lichess">
+    <h2>📚 Lichess</h2>
+    @if (data.lichess.status === 'response') {
+      <div class="status success">{{ data.lichess.message }}</div>
+      <div class="lichess-content">
+        @if (data.lichess.data?.opening) {
+          <div class="opening-info">
+            <h3>{{ data.lichess.data.opening.name }}</h3>
+            <span>ECO : {{ data.lichess.data.opening.eco }}</span>
+          </div>
+        }
+        <div class="lichess-stats">
+          <div><span>Blanc</span><strong>{{ data.lichess.data?.white }}</strong></div>
+          <div><span>Nuls</span><strong>{{ data.lichess.data?.draws }}</strong></div>
+          <div><span>Noir</span><strong>{{ data.lichess.data?.black }}</strong></div>
+        </div>
+        <h3>Coups les plus joués</h3>
+        <div class="lichess-moves">
+          @for (move of data.lichess.data?.moves ?? []; track move.uci) {
+            <div class="lichess-move">
+              <strong>{{ move.san }}</strong>
+              <span>{{ move.averageRating }} Elo</span>
+              @if (move.opening) {
+                <small>{{ move.opening.name }}</small>
+              }
+            </div>
+          }
+        </div>
+      </div>
+    } @else {
+      <div class="status error"><strong>Lichess indisponible</strong><p>{{ data.lichess.message }}</p></div>
+    }
+  </section>
+
+  <!-- MILVUS -->
+  <section class="result-card milvus">
+    <h2>🧠 Milvus</h2>
+    @if (data.milvus.status === 'response') {
+      <div class="status success">{{ data.milvus.message }}</div>
+      <div class="milvus-results">
+        @for (item of data.milvus.data ?? []; track $index) {
+          <article class="milvus-item">
+            <div class="milvus-header">
+              <h3>{{ item.title }}</h3>
+              <span class="score">{{ item.score | number:'1.3-3' }}</span>
+            </div>
+            <div class="opening">{{ item.opening }}</div>
+            <p>{{ item.text }}</p>
+            <small>Source : {{ item.source }}</small>
+          </article>
+        }
+      </div>
+    } @else {
+      <div class="status error"><strong>Erreur Milvus</strong><p>{{ data.milvus.message }}</p></div>
+    }
+  </section>
+
+  <!-- YOUTUBE -->
+  <section class="result-card youtube">
+    <h2>🎥 YouTube</h2>
+    @if (data.youtube.status === 'response') {
+      <div class="status success">{{ data.youtube.message }}</div>
+      <div class="youtube-results">
+        @for (video of data.youtube.data ?? []; track video.video_id) {
+          <a class="youtube-item" [href]="video.url" target="_blank" rel="noopener noreferrer">
+            <img [src]="video.thumbnail" [alt]="video.title">
+            <div class="video-info">
+              <h3>{{ video.title }}</h3>
+              <p class="channel">{{ video.channel }}</p>
+              <p class="description">{{ video.description }}</p>
+            </div>
+          </a>
+        }
+      </div>
+    } @else {
+      <div class="status error"><strong>YouTube indisponible</strong><p>{{ data.youtube.message }}</p></div>
+    }
+  </section>
+
+</div>
+
+
+}
+
+</div>

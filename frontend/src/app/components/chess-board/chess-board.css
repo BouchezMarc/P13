@@ -1,0 +1,195 @@
+.chess-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.board {
+  width: min(600px, 100%);
+  aspect-ratio: 1;
+  margin: 0 auto 30px;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.result-card {
+  padding: 20px;
+  border-radius: 12px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.result-card h2 {
+  margin: 0 0 15px;
+  font-size: 1.3rem;
+}
+
+.status {
+  padding: 10px 14px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.status.success {
+  background: #eaf7ee;
+  color: #176b35;
+}
+
+.status.error {
+  background: #fdecec;
+  color: #a32121;
+}
+
+.status p {
+  margin: 8px 0 0;
+  word-break: break-word;
+}
+
+
+/* STOCKFISH */
+
+.evaluation {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.evaluation-item {
+  padding: 12px;
+  border-radius: 8px;
+  background: #f5f5f5;
+}
+
+.evaluation-item span {
+  display: block;
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.evaluation-item strong {
+  font-size: 1.1rem;
+}
+
+
+/* MILVUS */
+
+.milvus-results {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.milvus-item {
+  padding: 15px;
+  border-radius: 8px;
+  background: #f7f7f7;
+}
+
+.milvus-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.milvus-item h3 {
+  margin: 0;
+}
+
+.milvus-item p {
+  line-height: 1.5;
+}
+
+.score {
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.opening {
+  margin-top: 5px;
+  font-style: italic;
+  color: #666;
+}
+
+.milvus-item small {
+  color: #777;
+}
+
+
+/* YOUTUBE */
+
+.youtube-results {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.youtube-item {
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  background: #f7f7f7;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.youtube-item:hover {
+  transform: translateY(-2px);
+  background: #eeeeee;
+}
+
+.youtube-item img {
+  width: 180px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.video-info h3 {
+  margin: 0 0 6px;
+  font-size: 1rem;
+}
+
+.channel {
+  margin: 0 0 5px;
+  font-weight: bold;
+}
+
+.description {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+  .chess-container {
+    padding: 10px;
+  }
+
+  .evaluation {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .youtube-item {
+    flex-direction: column;
+  }
+
+  .youtube-item img {
+    width: 100%;
+    height: auto;
+  }
+}
