@@ -6,43 +6,9 @@ Le projet permet de jouer une position sur un échiquier interactif, de transmet
 
 ---
 # 1. Architecture
-```text
-                         ┌──────────────────────┐
-                         │       FRONTEND       │
-                         │       Angular        │
-                         │                      │
-                         │  Échiquier interactif│
-                         └──────────┬───────────┘
-                                    │
-                              HTTP / FEN
-                                    │
-                                    ▼
-                         ┌──────────────────────┐
-                         │       BACKEND        │
-                         │       FastAPI        │
-                         │                      │
-                         │      LangGraph       │
-                         └──────────┬───────────┘
-                                    │
-             ┌──────────────────────┼──────────────────────┐
-             │                      │                      │
-             ▼                      ▼                      ▼
-         Lichess                Stockfish               MongoDB
-        Théorie                 Analyse                 Données
-             │                      │
-             └──────────┬───────────┘
-                        │
-                        ▼
-                 Chess Context
-                        │
-                        ▼
-                     Milvus
-               Recherche vectorielle
-                        │
-                        ▼
-                    YouTube
-                Recherche de vidéos
-```
+
+![alt text](pics/graph_api.png)
+
 Le backend constitue le point central de l'application.
 Le frontend communique uniquement avec l'API backend. Les différents services sont ensuite appelés depuis le backend.
 
@@ -582,36 +548,6 @@ docker compose down -v
 
 ---
 # 20. Vue d'ensemble du projet
-```text
-				 UTILISATEUR
-					  ▼
-			 ┌────────────────┐
-			 │ Angular /      │
-			 │ Échiquier      │
-			 └───────┬────────┘
-					FEN
-					 ▼
-			 ┌────────────────┐
-			 │    FastAPI     │
-			 │    Backend     │
-			 └───────┬────────┘
-			   LangGraph
-	  ┌──────────────┼──────────────┐
-	  │              │              │
-	  ▼              ▼              ▼
-  Lichess        Stockfish       Context
-	  │              │              │
-	  └──────────────┴──────┬───────┘
-							▼
-						 Milvus
-							▼
-						YouTube
-
-			 ┌──────────────┐
-			 │   MongoDB    │
-			 │   Données    │
-			 └──────────────┘
-```
 
 Le projet sépare ainsi les responsabilités entre :
 - **Angular** : interface et échiquier ;    
